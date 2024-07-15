@@ -8,10 +8,10 @@ $(document).ready(function() {
         $(this).slideUp();    
     });
 
-    $("p").mouseenter(function () {
+    $("q").mouseenter(function () {
         $(this).css("color","#00FF00");
     });
-    $("p").mouseleave(function () {
+    $("q").mouseleave(function () {
         $(this).css("color","#000066");
     });
     $(".cls01").mouseenter(function () {
