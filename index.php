@@ -11,13 +11,13 @@
 </head>
 <body>
     <div id="top_div">
-        
+
     </div>
     <div id="left_div">
         <?php require 'elements/left.php'; ?>
     </div>
     <div id="center_div">
-        
+        <?php require 'page/exjs01.php'; ?>
     </div>
     <div id="right_div">
         <?php require 'page/exjs.php'; ?>

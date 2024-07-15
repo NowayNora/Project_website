@@ -29,6 +29,15 @@ body{
         background-color: yellow;
         clear: both;
     }
+    q{
+        color: red;
+    }
+    .cls01{
+        color: blueviolet;
+    }
+    #id01{
+        color: yellowgreen;
+    }
     /* menu */
     .cateOder{
         font-weight: bold;
@@ -44,14 +53,28 @@ body{
     a{
         text-decoration: none;
     }
-    p{
-        color: red;
+    /* Slide Image */
+    #DivSlideimgage{
+        width: 80%;
+        margin: auto;
     }
-    .cls01{
-        color: blueviolet;
+    #DivView{
+        width: 700px;
+        height: 500px;
+        border: solid;
     }
-    #id01{
-        color: yellowgreen;
+    #DivList{
+        width: 700px;
+        height: 100px;
+        border: solid;
     }
-
+    #imgView{
+        width: 600px;
+    }
+    .imgCls{
+        width: 90px;
+    }
+    .imgCls:hover{
+        width: 95px;
+    }
 }

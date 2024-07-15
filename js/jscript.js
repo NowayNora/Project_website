@@ -7,7 +7,7 @@ $(document).ready(function() {
     $(".itemOder").mouseleave(function () {
         $(this).slideUp();    
     });
-
+    // page left
     $("q").mouseenter(function () {
         $(this).css("color","#00FF00");
     });
@@ -27,6 +27,11 @@ $(document).ready(function() {
     $("#id01").mouseleave(function () {
         $(this).css("color","#000066");
         $(this).css("font-weight","normal");
+    });
+    // slide images
+    $(".imgCls").mouseover(function () {
+        var img = $(this).attr("src");
+        $("#imgView").attr("src",img);
     });
 });
 
