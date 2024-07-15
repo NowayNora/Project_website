@@ -1,0 +1,57 @@
+body{
+
+    #top_div {
+        height: 100px;
+        width: 100%;
+        background-color: antiquewhite;
+    }
+    #left_div {
+        height: 600px;
+        width: 20%;
+        background-color: aquamarine;
+        float: left;
+    }
+    #center_div {
+        height: 600px;
+        width: 60%;
+        background-color: bisque;
+        float: left;
+    }
+    #right_div {
+        height: 600px;
+        width: 19.8%;
+        background-color: burlywood;
+        float: left;
+    }
+    #bottom_div {
+        height: 90px;
+        width: 100%;
+        background-color: yellow;
+        clear: both;
+    }
+    /* menu */
+    .cateOder{
+        font-weight: bold;
+    }
+    .itemOder{
+        font-style: italic;
+    }
+    ul{
+        list-style: square;
+        margin: 0;
+        padding-left: 15px;
+    }
+    a{
+        text-decoration: none;
+    }
+    p{
+        color: red;
+    }
+    .cls01{
+        color: blueviolet;
+    }
+    #id01{
+        color: yellowgreen;
+    }
+
+}
